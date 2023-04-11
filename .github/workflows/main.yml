@@ -20,7 +20,7 @@ jobs:
       pip install pytest
   - name: Test Python files
     run: |
-     cd K-Means_Algorithm/test/files
-     pytest -k *test_.pygit 
+     cd test/files
+     pytest -k *test_.py
    
   
