@@ -19,8 +19,7 @@ jobs:
       pip install -r requirements.txt
       pip install pytest
   - name: Test Python files
-    run: |
-     cd test/files
+    run: 
      pytest -k *test_.py
    
   
